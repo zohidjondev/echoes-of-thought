@@ -1,20 +1,20 @@
 @font-face {
   font-family: Liberteen;
-  src: url("/Style/Fonts/Liberteen/Liberteen-Thin.woff2") format("woff2");
+  src: url("Style/Fonts/Liberteen/Liberteen-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("/Style/Fonts/Liberteen/Liberteen-Light.woff2") format("woff2");
+  src: url("Style/Fonts/Liberteen/Liberteen-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("/Style/Fonts/Liberteen/Liberteen-Regular.woff2") format("woff2");
+  src: url("Style/Fonts/Liberteen/Liberteen-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
