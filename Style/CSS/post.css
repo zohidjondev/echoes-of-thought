@@ -1,0 +1,173 @@
+/* ================================================
+   Global Styles
+================================================ */
+:root {
+  --primary-bg: #1a1a1a; /* A deeper black for a richer background */
+  --primary-text: #f5f5f5; /* Softer white for less harsh contrast */
+  --accent: #ff9800; /* Vibrant orange for accents */
+  --secondary-text: #b3b3b3; /* Neutral light gray for secondary text */
+  --hover-accent: #ffb74d; /* A lighter orange for hover effects */
+  --hero-bg: #242424; /* Slightly lighter background for hero sections */
+  --error-text: #e57373; /* Soft red for errors */
+  --card-bg: #2a2a2a; /* Background for cards/containers */
+  --border-color: #404040; /* Subtle border for separation */
+  --button-bg: #333333; /* Button background */
+  --button-hover: #505050; /* Button hover background */
+}
+
+* {
+  font-family: Liberteen, sans-serif;
+}
+
+body {
+  font-family: Liberteen, sans-serif;
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--hero-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: var(--accent);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ==========================================
+   Article Content Styling
+========================================== */
+article {
+  font-size: 1rem;
+  color: var(--secondary-text);
+}
+
+/* Headings */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--primary-text);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+article p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: var(--primary-text);
+}
+
+/* Blockquotes */
+article blockquote {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: var(--primary-bg);
+  border-left: 5px solid var(--primary-text);
+  color: var(--primary-text);
+  font-style: italic;
+}
+
+/* Images */
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+article a {
+  color: var(--accent);
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+article a:hover {
+  color: var(--hover-accent);
+}
+
+/* Lists */
+article ul,
+article ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+article li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code Block Styling */
+article pre {
+  background-color: #33353a; /* Matches hero background for consistency */
+  color: #ffffff; /* Light text for dark background */
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+article code {
+  font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+  color: var(--accent); /* Matches hover accent for inline code */
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* Table Styling */
+article table {
+  width: 100%; /* Make table responsive */
+  border-collapse: collapse; /* Merge borders */
+  margin: 2rem 0; /* Add space around tables */
+  background-color: #1e1f24; /* Match hero background */
+  border: 1px solid #4caf50; /* Green border */
+}
+
+article th,
+article td {
+  padding: 0.75rem 1rem; /* Add padding inside cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid var(--accent); /* Cell borders */
+  color: var(--primary-text); /* Match primary text color */
+}
+
+article th {
+  background-color: var(--hover-accent); /* Green header background */
+  color: #ffffff; /* Light text for headers */
+  font-weight: bold;
+}
+
+article td:hover {
+  background-color: var(--hover-accent); /* Highlight hovered cells */
+  color: #ffffff; /* Text remains visible */
+}
+
+/* ================================================
+   Responsive Design
+================================================ */
+
+@media (max-width: 768px) {
+  table {
+    font-size: 0.9rem; /* Reduce font size on smaller screens */
+  }
+
+  th,
+  td {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
