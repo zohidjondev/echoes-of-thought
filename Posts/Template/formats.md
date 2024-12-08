@@ -1,4 +1,6 @@
 # Markdown Style Test
+![Test Image](/Imgs/default.png)
+
 
 Welcome to the **Markdown Style Test Post**. This document contains all the possible Markdown styles to help you verify the rendering and styling on your page.
 
@@ -63,7 +65,7 @@ This is a [relative link to another post](?post=another-post).
 
 ### Full Width Image
 
-![Test Image](/Posts/Post1/cover.jpg)
+![Test Image](/Posts/Post2/cover.jpg)
 
 ### Small Image
 
@@ -86,6 +88,9 @@ function sayHello() {
 }
 sayHello();
 ```
+
+---
+### Table 
 
 | Month    | Savings |
 | -------- | ------- |
