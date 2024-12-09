@@ -30,10 +30,32 @@ body {
 ================================================== */
 /* About Hero Section */
 .about-hero {
-  background-color: var(--hero-bg);
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hero-bg) url("../Imgs/about.jpg") no-repeat center center / cover;
   color: var(--primary-text);
+  overflow: hidden; /* Ensure child elements don't exceed boundaries */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Uniform overlay color */
+  z-index: 1; /* Ensure it sits above the background but below content */
+}
+
+.about-hero-content {
+  position: relative;
   text-align: center;
-  padding: 5rem 1rem;
+  z-index: 2; /* Ensure it appears above the overlay */
+  color: var(--primary-text);
+  padding: 1rem; /* Add padding for better text placement */
 }
 
 .about-hero-content h1 {
@@ -42,8 +64,8 @@ body {
 }
 
 .about-hero-content p {
-  font-size: 1.2rem;
-  color: var(--secondary-text);
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 /* About Content Section */
@@ -79,8 +101,6 @@ body {
   background-color: var(--accent);
   color: var(--primary-text);
 }
- 
-
 
 /* ==================================================
    Responsive Design
