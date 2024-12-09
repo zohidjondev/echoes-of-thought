@@ -34,7 +34,7 @@ async function renderPost(postId) {
     postTitle.textContent = post.title;
 
     // Fetch and render the markdown content
-    const response = await fetch(`Posts/${postId}/post.md`);
+    const response = await fetch(`/echoes-of-thought/Posts/${postId}/post.md`);
     if (!response.ok) throw new Error("Markdown file not found");
 
     const markdownContent = await response.text();
