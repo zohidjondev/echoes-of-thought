@@ -21,14 +21,14 @@
 
 @font-face {
   font-family: Liberteen;
-  src: url("/echoes-of-thought//Style/Fonts/Liberteen/Liberteen-Bold.woff2") format("woff2");
+  src: url("/echoes-of-thought/Style/Fonts/Liberteen/Liberteen-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("/echoes-of-thought//Style/Fonts/Liberteen/Liberteen-Black.woff2") format("woff2");
+  src: url("/echoes-of-thought/Style/Fonts/Liberteen/Liberteen-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }

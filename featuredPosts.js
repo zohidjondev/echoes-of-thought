@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       postElement.classList.add("post");
 
-      const coverImagePath = `Posts/${post.folder}/cover.jpg`;
-      const fallbackImagePath = "/Imgs/default.png";
+      const coverImagePath = `echoes-of-thought/Posts/${post.folder}/cover.jpg`;
+      const fallbackImagePath = "/echoes-of-thought/Imgs/default.png";
 
       // Check if the image exists
       const img = new Image();
@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       img.onerror = () => {
         // If image fails to load, use a fallback image
-        console.warn(`Cover image not found for ${post.folder}, using fallback.`);
+        console.warn(
+          `Cover image not found for ${post.folder}, using fallback.`
+        );
         postElement.style.backgroundImage = `url('${fallbackImagePath}')`;
         postElement.style.backgroundSize = "cover";
         postElement.style.backgroundPosition = "center";

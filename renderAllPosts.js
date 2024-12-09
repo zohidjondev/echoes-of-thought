@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       postElement.classList.add("post");
 
-      const coverImagePath = `Posts/${post.folder}/cover.jpg`;
-      const fallbackImagePath = "/Imgs/default.png";
+      const coverImagePath = `/echoes-of-thought/Posts/${post.folder}/cover.jpg`;
+      const fallbackImagePath = "/echoes-of-thought/Imgs/default.png";
 
       // Check if the image exists
       const img = new Image();
