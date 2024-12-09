@@ -7,28 +7,28 @@
 
 @font-face {
   font-family: Liberteen;
-  src: url("Style/Fonts/Liberteen/Liberteen-Light.woff2") format("woff2");
+  src: url("/echoes-of-thought/Style/Fonts/Liberteen/Liberteen-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("Style/Fonts/Liberteen/Liberteen-Regular.woff2") format("woff2");
+  src: url("/echoes-of-thought/Style/Fonts/Liberteen/Liberteen-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("/Style/Fonts/Liberteen/Liberteen-Bold.woff2") format("woff2");
+  src: url("/echoes-of-thought//Style/Fonts/Liberteen/Liberteen-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: Liberteen;
-  src: url("/Style/Fonts/Liberteen/Liberteen-Black.woff2") format("woff2");
+  src: url("/echoes-of-thought//Style/Fonts/Liberteen/Liberteen-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
